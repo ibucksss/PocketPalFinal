@@ -1,0 +1,43 @@
+.transactions-count {
+  box-shadow: 0 0 2px #333;
+  padding: 15px;
+  border-radius: 11px;
+}
+.transactions-count,
+.category-card h4 {
+  font-size: 25px;
+}
+.transactions-count h5 {
+  font-size: 20px;
+}
+.progress-bars {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.category-card {
+  padding: 5px 20px;
+  box-shadow: 0 0 1px #333;
+  margin-top: 15px;
+}
+.tables .card {
+  border: none;
+}
+@media screen and (min-width: 756px) and (max-width: 1410px) {
+  .tables {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .tables .card {
+    width: 80%;
+    border: none;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 447px) {
+  .progress-bars {
+    display: flex;
+    flex-direction: column;
+  }
+}

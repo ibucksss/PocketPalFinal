@@ -1,0 +1,17 @@
+@import url("https://fonts.googleapis.com/css2?family=Bellota+Text:wght@300;400;700&family=Monoton&family=Open+Sans:wght@300&family=Zen+Kaku+Gothic+Antique:wght@300;400;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "Bellota Text", ßcursive !important;
+}
+.body,
+html {
+  overflow-x: hidden;
+}
+.primary {
+  background-color: #396caa;
+  color: #fff;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 5px;
+}

@@ -1,0 +1,74 @@
+.filter {
+  box-shadow: 0 0 2px #333;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+.transaction-form label {
+  color: #333 !important;
+}
+.transaction-form input:focus {
+  border: 1px solid #333;
+}
+.ant-modal-footer .ant-btn-primary {
+  background-color: #396caa;
+}
+.view-switch {
+  border: 0.5px solid rgba(0, 0, 0, 0.4);
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+.anticon svg {
+  font-size: 20px;
+  margin: 5px;
+  cursor: pointer;
+}
+.active-icon {
+  color: #375b87;
+}
+.inactive-icon {
+  color: rgba(96, 95, 95, 0.3);
+}
+
+.delete-btn:hover {
+  color: rgb(189, 36, 36);
+}
+.edit-btn:hover {
+  color: #396caa;
+}
+@media screen and (max-width: 912px) {
+  .filter {
+    overflow-x: scroll;
+    flex-direction: column;
+  }
+  .row-1 {
+    display: flex;
+    margin-left: 50px;
+  }
+  .row-2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+  .row-2 .primary {
+    margin-top: 10px;
+  }
+  .table {
+    overflow-x: scroll;
+  }
+  .ant-table-cell .flex {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 0px) and (max-width: 460px) {
+  .row-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 1px;
+  }
+}
